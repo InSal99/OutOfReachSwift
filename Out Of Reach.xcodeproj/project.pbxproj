@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1617615C2B8ED95400E39676 /* GameBacksound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1617615B2B8ED95400E39676 /* GameBacksound.mp3 */; };
 		165ED8C92A2044DC00CE0B53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165ED8C82A2044DC00CE0B53 /* AppDelegate.swift */; };
 		165ED8CB2A2044DC00CE0B53 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165ED8CA2A2044DC00CE0B53 /* CameraView.swift */; };
 		165ED8CD2A2044DC00CE0B53 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 165ED8CC2A2044DC00CE0B53 /* Experience.rcproject */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1617615B2B8ED95400E39676 /* GameBacksound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GameBacksound.mp3; sourceTree = "<group>"; };
 		165ED8C52A2044DC00CE0B53 /* OutOfReach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OutOfReach.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		165ED8C82A2044DC00CE0B53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		165ED8CA2A2044DC00CE0B53 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 		165ED8D02A2044DC00CE0B53 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				1617615B2B8ED95400E39676 /* GameBacksound.mp3 */,
 				165ED8D12A2044DC00CE0B53 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -164,6 +167,7 @@
 				165ED8D22A2044DC00CE0B53 /* Preview Assets.xcassets in Resources */,
 				165ED8CF2A2044DC00CE0B53 /* Assets.xcassets in Resources */,
 				16780CE72A20EC240003232F /* Slenderman.usdz in Resources */,
+				1617615C2B8ED95400E39676 /* GameBacksound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,7 +334,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = .ada;
+				PRODUCT_BUNDLE_IDENTIFIER = com.intansaliyautomo.OutofReach;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -361,7 +365,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = .ada;
+				PRODUCT_BUNDLE_IDENTIFIER = com.intansaliyautomo.OutofReach;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
